@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
 }
 .container {
   height: 100vh;
@@ -21,6 +21,11 @@
 .content {
   height: 80vh;
   width: 60vw;
+}
+.heading,
+.footerpart,.sidebar,.navbar,.content{
+    padding-left: 10px;
+  padding-right: 10px;
 }
 .navbar {
   height: 80vh;
@@ -58,4 +63,7 @@
     overflow: auto;
     height: 21.9vh;
   }
+ .sidebar,.navbar,.content{
+    width: fit-content;
+}
 }
